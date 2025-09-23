@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                echo 'Github clone repo..'
-            }
-        }
 
         stage('Build') {
             steps {

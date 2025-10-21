@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        image: gassouma530/testdeploy:student_managementv2
+        image: gassouma530975/testdeploy:student_managementv2
         ports:
         - containerPort: 8089
 

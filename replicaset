@@ -57,6 +57,9 @@ spec:
         image: mysql:8.0
         ports:
         - containerPort: 3306
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: "rootroot"  # <-- set your desired root password here
 
 
 ---
